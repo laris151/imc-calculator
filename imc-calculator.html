@@ -1,0 +1,19 @@
+<!--Begin Code -->
+
+<script src="http://www.bmi-rechner.net/jscripts/sendform.js"></script>
+
+<form action="http://www.bmi-rechner.net/es/bmi.pl" method="POST" target="Popup" name="rechner6" onsubmit="sendForm('800','800','rechner6',''); return false;">
+	<div id="rechner" style="box-shadow: 2px 2px 5px 2px #green; padding:15px; margin:10px;width:310px;border-radius:15px; font-family:Verdana,Tahoma,'sans-serif';font-size:11px;background: url(http://www.bmi-rechner.net/images/box_bg_rot.png);">
+		<p style="margin-top:0;padding-top:0;text-align:center;font-size:12px;font-weight:bold">Calculadora de IMC</p>
+		<hr style="margin-bottom:10px;" color="maroon" size="1">
+
+			<label style="width:120px; float:left; padding: 3px 0;" for="geschlecht"><b>Sexo:</b></label> <span style="display:block; padding: 3px 0;"><select size="1" name="geschlecht"><option selected value="frau">femenino</option><option value="herr">masculino</option></select></span>
+			<label style="width:120px; float:left; padding: 3px 0;" for="gewicht"><b>Peso:</b></label> <span style="display:block; padding: 3px 0;" ><input type="number" style="width:60px;"  pattern="[0-9]{1,3}" min="10" max="400" step="1" value="" name="gewicht" size="7" required> KG</span>
+			<label style="width:120px; float:left; padding: 3px 0;" for="groesse"><b>Altura:</b></label> <span style="display:block; padding: 3px 0;"><input type="number" style="width:60px;"  pattern="[0-9]{1,3}" min="10" max="400" step="1" value="" name="groesse" size="7"  required> cm</span>
+			<label style="width:120px; float:left; padding: 3px 0;" for="alter"><b>Idade:</b></label> <span style="display:block; padding: 3px 0;"><input type="number" style="width:60px;"  pattern="[0-9]{1,3}" min="19" max="200" step="1" value="" name="alter" size="7" required> anos</span>
+
+			<p style="text-align:center;"><input style="font-size:10px;" type="submit" value="Calcular seu IMC"></p> <p><a href="http://www.emagrecerpravaler.com" target="_blank"></a></p>
+
+	</div>
+</form>
+<!--End of Code -->
